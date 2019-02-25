@@ -1,7 +1,8 @@
 import React from 'react';
 import { Form, Input, Button, message } from 'antd';
+import {Link} from 'react-router-dom';
 import $ from 'jquery';
-import { API_ROOT } from './constants.js';
+import { API_ROOT } from '../constants.js';
 
 class RegistrationForm extends React.Component {
   state = {
@@ -123,6 +124,7 @@ class RegistrationForm extends React.Component {
         </Form.Item>
         <Form.Item {...tailFormItemLayout}>
           <Button type="primary" htmlType="submit">Register</Button>
+          <p>I already have an account, go back to <Link to="/login"> login </Link></p>
         </Form.Item>
       </Form>
     );

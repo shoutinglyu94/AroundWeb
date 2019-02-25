@@ -1,7 +1,8 @@
-@import './App.css';
-@import './Main.css';
-@import './Register.css';
-
+@import './styles/App.css';
+@import './styles/Main.css';
+@import './styles/Register.css';
+@import './styles/Login.css';
+@import './styles/Header.css';
 body {
   margin: 0;
   padding: 0;
